@@ -50,6 +50,7 @@
 ;;    (add-to-list 'package-archives
 ;;      '("melpa" . "http://melpa.milkbox.net/packages/") t)
 ;;    (unless (package-installed-p 'package+)
+;;      (package-refresh-contents)
 ;;      (package-install 'package+))
 ;;
 ;;    (package-manifest 'ag
