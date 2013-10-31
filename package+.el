@@ -124,7 +124,7 @@ having to have all the packages themselves under version
 control."
   (package-initialize)
 
-  (unless package-archive-contents      ; why? package-install has this.
+  (unless package-archive-contents
     (package-refresh-contents))
 
   (let ((tc-manifest (package-transitive-closure manifest)))
